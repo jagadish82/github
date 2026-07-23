@@ -17,7 +17,7 @@ pipeline{
                 sh "df -h"
             }
         }
-        Stage('Server up Time'){
+        stage('Server up Time'){
             steps{
                 sh "uptime"
         }
