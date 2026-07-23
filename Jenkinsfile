@@ -20,6 +20,7 @@ pipeline{
         stage('Server up Time'){
             steps{
                 sh "uptime"
+            }
         }
         stage('Memory Usage'){
             steps{
